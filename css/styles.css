@@ -1,0 +1,47 @@
+:root {
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--very-dark-blue);
+}
+
+h1 {
+  color: #fff;
+}
+
+.container {
+  background-color: var(--dark-blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Frontend mentor footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
