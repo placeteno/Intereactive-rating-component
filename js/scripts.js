@@ -8,16 +8,19 @@ let ratingFour = document.getElementById('n4');
 let ratingFive = document.getElementById('n5');
 
 
-function updateRating() {
+function updateRating(event) {
   ratingOne = ratingOne.className = 'active-rating';
-  let rating = document.getElementById("n1").innerHTML;
+  let rating = event.target.innerHTML;
   ratingNbr.innerHTML = rating;
 }
-
 
 function changeCards() {
   cardTwo = cardTwo.style.zIndex = '1';
 }
 
 ratingOne.addEventListener('click', updateRating);
+ratingTwo.addEventListener('click', updateRating)
+ratingThree.addEventListener('click', updateRating)
+ratingFour.addEventListener('click', updateRating)
+ratingFive.addEventListener('click', updateRating)
 submitBtn.addEventListener('click', changeCards);
