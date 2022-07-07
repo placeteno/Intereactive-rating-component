@@ -40,7 +40,11 @@ p {
   margin: 0 auto;
 }
 
-.container {
+/****************
+ RATING CARD 
+*****************/
+
+.card-one {
   position: absolute;
   z-index: 1;
   background-image: linear-gradient(0deg, hsl(216, 12%, 8%), hsl(213, 19%, 18%));
@@ -51,7 +55,7 @@ p {
   font-weight: 100;
 }
 
-.star {
+.card-one-star {
   display: flex;
   width: 50px;
   height: 50px;
@@ -91,7 +95,7 @@ ul li:hover {
   cursor: pointer;
 }
 
-.container a {
+.submit-btn a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,14 +112,17 @@ ul li:hover {
   color: #fff;
 }
 
-.container a:hover {
+.submit-btn a:hover {
   background-color: #fff;
   color: hsl(25, 97%, 53%);
 }
 
-.thx-container {
+/****************
+ THANK YOU CARD 
+*****************/
+
+.card-two {
   position: absolute;
-  z-index: 0;
   background-image: linear-gradient(0deg, hsl(216, 12%, 8%), hsl(213, 19%, 18%));
   width: 26rem;
   margin: 0 auto;
@@ -124,7 +131,7 @@ ul li:hover {
   font-weight: 100;
 }
 
-.confirmation-img {
+.card-two-img {
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -145,19 +152,24 @@ ul li:hover {
   margin: 0;
 }
 
-.thx-message {
+.card-two-textbox {
   text-align: center;
   margin-top: 3rem;
 }
 
-.thx-message p {
+.card-two-textbox p {
   font-size: 0.99rem;
 }
 
 
+.selected {
+  background-color: var(--light-grey);
+  color: white;
+}
 
-
-
+.z-index {
+  z-index: 100;
+}
 
 
 /*  Frontend mentor footer */
