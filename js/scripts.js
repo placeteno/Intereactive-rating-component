@@ -1,18 +1,17 @@
 let submitBtn = document.getElementById('submit-btn');
 let cardTwo = document.getElementById('card2');
-let ratingNbr = document.querySelector('span');
 let ratingOne = document.getElementById('n1');
 let ratingTwo = document.getElementById('n2');
 let ratingThree = document.getElementById('n3');
 let ratingFour = document.getElementById('n4');
 let ratingFive = document.getElementById('n5');
+let ratingNbr = document.querySelector('span');
 
 
 function updateRating(event) {
-  ratingOne = ratingOne.className = 'active-rating';
   let rating = event.target.innerHTML;
   ratingNbr.innerHTML = rating;
-}
+  }
 
 function changeCards() {
   cardTwo = cardTwo.style.zIndex = '1';

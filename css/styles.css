@@ -29,6 +29,7 @@ p {
   margin-top: 0;
   margin-bottom: 30px;
 }
+
 .cards {
   display: grid;
   place-items: center;
@@ -38,6 +39,7 @@ p {
   height: 100vh;
   margin: 0 auto;
 }
+
 .container {
   position: absolute;
   z-index: 1;
@@ -78,13 +80,13 @@ ul li {
 }
 
 ul li:hover {
-  background-color: var(--light-grey);
+  background-color: var(--orange);
   color: white;
   cursor: pointer;
 }
 
 .active-rating {
-  background-color: var(--orange);
+  background-color: var(--light-grey);
   color: white;
   cursor: pointer;
 }
@@ -108,7 +110,7 @@ ul li:hover {
 
 .container a:hover {
   background-color: #fff;
-  color:hsl(25, 97%, 53%);
+  color: hsl(25, 97%, 53%);
 }
 
 .thx-container {
@@ -134,8 +136,9 @@ ul li:hover {
   border-radius: 1rem;
   width: 12rem;
 }
+
 .usr-selection p {
-  color:hsl(25, 97%, 53%);
+  color: hsl(25, 97%, 53%);
   font-size: .95rem;
   padding: .3rem 0;
   text-align: center;
@@ -146,6 +149,7 @@ ul li:hover {
   text-align: center;
   margin-top: 3rem;
 }
+
 .thx-message p {
   font-size: 0.99rem;
 }
